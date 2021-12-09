@@ -1,0 +1,9 @@
+{
+    "body": "test 12",
+    "image": "http://swiftpwa-be.testingnow.me/",
+    "logo": "http://swiftpwa-be.testingnow.me/",
+    "notification": "{\"body\":\"test 12\",\"title\":\"test 12\"}",
+    "path": "category/product/cms",
+    "title": "test 12",
+    "type": "CMS"
+}

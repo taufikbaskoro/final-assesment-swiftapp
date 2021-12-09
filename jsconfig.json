@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "@root": ["./"],
+      "@root/*": ["./*"],
+      "@app": ["./_src/override", "./_src/core"],
+      "@app/*": ["./_src/override/*", "./_src/core/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

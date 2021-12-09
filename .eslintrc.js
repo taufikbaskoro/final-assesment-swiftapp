@@ -1,0 +1,30 @@
+module.exports = {
+  root: true,
+  extends: '@react-native-community',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    allowImportExportEverywhere: false,
+    codeFrame: false,
+  },
+  plugins: ['react'],
+  rules: {
+    'import/prefer-default-export': 'off',
+    'import/no-unresolved': 'off',
+    'no-alert': 0,
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-filename-extension': [1, {extensions: ['.js', '.jsx']}],
+    'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': 0,
+    'react/no-array-index-key': 0,
+    'import/no-named-as-default': 0,
+    'react-hooks/rules-of-hooks': 0,
+    'react-hooks/exhaustive-deps': 0,
+    'react-native/no-inline-styles': 0,
+    radix: 0,
+    'max-len': ['error', {code: 120, ignoreComments: true}],
+  },
+};

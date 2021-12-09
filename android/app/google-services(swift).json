@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "120568969429",
+    "firebase_url": "https://swift-app-84016.firebaseio.com",
+    "project_id": "swift-app-84016",
+    "storage_bucket": "swift-app-84016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120568969429:android:e0c929927a108a2db70a5c",
+        "android_client_info": {
+          "package_name": "com.icube.swiftapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120568969429-6b85otg5fcfmi1m2g1ocpjspfpbhoi6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdVZ1p6mZR5Y680iQzQdIK1cEXvnchkGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120568969429-6b85otg5fcfmi1m2g1ocpjspfpbhoi6t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "120568969429-mq2veheeloal9s89jg9s86qid41fpio5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.icube.swiftapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

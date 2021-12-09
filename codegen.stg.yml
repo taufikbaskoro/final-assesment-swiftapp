@@ -1,0 +1,10 @@
+schema:
+  - 'https://swiftpwa-be.testingnow.me/graphql'
+config: {}
+generates:
+  ./src/services/graphql/introspection-result.js:
+    plugins:
+      - 'fragment-matcher'
+    config:
+      apolloClientVersion: 3
+require: []

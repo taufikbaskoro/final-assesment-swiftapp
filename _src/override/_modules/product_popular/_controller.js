@@ -33,9 +33,13 @@ const Controller = props => {
 
   const get_products = () => useQuery(GET_POPULAR_PRODUCTS);
 
+  const {loading, error, data} = get_products();
+
   const controllerProps = {
     t,
-    get_products,
+    loading,
+    error,
+    data,
   };
 
   return <Views {...props} {...controllerProps} />;

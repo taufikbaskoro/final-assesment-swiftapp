@@ -24,19 +24,21 @@ const Item = ({item}) => {
   );
 };
 
-const Views = ({t, get_products}) => {
+const Views = ({t, loading, error, data}) => {
   const theme = useTheme();
   const {background} = _.get(theme, 'colors');
   const [products, setProducts] = useState(null);
 
-  const {loading, error, data} = get_products();
-
   useEffect(() => {
     setProducts(data && data.categoryList[0].products.items);
-    // console.log(products)
   }, [loading]);
 
-  // if(loading) return <Text>Loading...</Text>
+  if (loading) {
+    return <Text>Loading...</Text>;
+  }
+  if (error) {
+    return <Text>Error</Text>;
+  }
 
   const renderItem = ({item}) => {
     return <Item item={item} />;
